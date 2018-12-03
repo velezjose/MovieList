@@ -1,0 +1,13 @@
+const UserMovieInput = ({ value, addMovieHandler, addMovieInputChange }) => React.createElement(
+  "div",
+  { className: "add-movie-div" },
+  React.createElement("input", { value: value, onChange: addMovieInputChange, placeholder: "Add movie title here" }),
+  React.createElement(
+    "button",
+    { onClick: addMovieHandler, id: "add-movie" },
+    "Add"
+  )
+);
+
+export default UserMovieInput;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL1VzZXJNb3ZpZUlucHV0LmpzIl0sIm5hbWVzIjpbIlVzZXJNb3ZpZUlucHV0IiwidmFsdWUiLCJhZGRNb3ZpZUhhbmRsZXIiLCJhZGRNb3ZpZUlucHV0Q2hhbmdlIl0sIm1hcHBpbmdzIjoiQUFBQSxNQUFNQSxpQkFBaUIsQ0FBQyxFQUFDQyxLQUFELEVBQVFDLGVBQVIsRUFBeUJDLG1CQUF6QixFQUFELEtBQ3JCO0FBQUE7QUFBQSxJQUFLLFdBQVUsZUFBZjtBQUNFLGlDQUFPLE9BQU9GLEtBQWQsRUFBcUIsVUFBVUUsbUJBQS9CLEVBQW9ELGFBQVksc0JBQWhFLEdBREY7QUFFRTtBQUFBO0FBQUEsTUFBUSxTQUFTRCxlQUFqQixFQUFrQyxJQUFHLFdBQXJDO0FBQUE7QUFBQTtBQUZGLENBREY7O0FBT0EsZUFBZUYsY0FBZiIsImZpbGUiOiJVc2VyTW92aWVJbnB1dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFVzZXJNb3ZpZUlucHV0ID0gKHt2YWx1ZSwgYWRkTW92aWVIYW5kbGVyLCBhZGRNb3ZpZUlucHV0Q2hhbmdlfSkgPT4gKFxuICA8ZGl2IGNsYXNzTmFtZT1cImFkZC1tb3ZpZS1kaXZcIj5cbiAgICA8aW5wdXQgdmFsdWU9e3ZhbHVlfSBvbkNoYW5nZT17YWRkTW92aWVJbnB1dENoYW5nZX0gcGxhY2Vob2xkZXI9XCJBZGQgbW92aWUgdGl0bGUgaGVyZVwiPjwvaW5wdXQ+XG4gICAgPGJ1dHRvbiBvbkNsaWNrPXthZGRNb3ZpZUhhbmRsZXJ9IGlkPVwiYWRkLW1vdmllXCI+QWRkPC9idXR0b24+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgVXNlck1vdmllSW5wdXQ7Il19

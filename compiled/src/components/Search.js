@@ -1,0 +1,13 @@
+const Search = ({ searchClickHandler, searchMovieInputChange, searchValue }) => React.createElement(
+  "div",
+  { className: "search-div" },
+  React.createElement("input", { value: searchValue, placeholder: "Search...", onChange: searchMovieInputChange }),
+  React.createElement(
+    "button",
+    { onClick: searchClickHandler },
+    "Go!"
+  )
+);
+
+export default Search;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL1NlYXJjaC5qcyJdLCJuYW1lcyI6WyJTZWFyY2giLCJzZWFyY2hDbGlja0hhbmRsZXIiLCJzZWFyY2hNb3ZpZUlucHV0Q2hhbmdlIiwic2VhcmNoVmFsdWUiXSwibWFwcGluZ3MiOiJBQUFBLE1BQU1BLFNBQVMsQ0FBQyxFQUFDQyxrQkFBRCxFQUFxQkMsc0JBQXJCLEVBQTZDQyxXQUE3QyxFQUFELEtBQ2I7QUFBQTtBQUFBLElBQUssV0FBVSxZQUFmO0FBQ0UsaUNBQU8sT0FBT0EsV0FBZCxFQUEyQixhQUFZLFdBQXZDLEVBQW1ELFVBQVVELHNCQUE3RCxHQURGO0FBRUU7QUFBQTtBQUFBLE1BQVEsU0FBU0Qsa0JBQWpCO0FBQUE7QUFBQTtBQUZGLENBREY7O0FBT0EsZUFBZUQsTUFBZiIsImZpbGUiOiJTZWFyY2guanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBTZWFyY2ggPSAoe3NlYXJjaENsaWNrSGFuZGxlciwgc2VhcmNoTW92aWVJbnB1dENoYW5nZSwgc2VhcmNoVmFsdWV9KSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwic2VhcmNoLWRpdlwiPlxuICAgIDxpbnB1dCB2YWx1ZT17c2VhcmNoVmFsdWV9IHBsYWNlaG9sZGVyPVwiU2VhcmNoLi4uXCIgb25DaGFuZ2U9e3NlYXJjaE1vdmllSW5wdXRDaGFuZ2V9PjwvaW5wdXQ+XG4gICAgPGJ1dHRvbiBvbkNsaWNrPXtzZWFyY2hDbGlja0hhbmRsZXJ9PkdvITwvYnV0dG9uPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IFNlYXJjaDsiXX0=
